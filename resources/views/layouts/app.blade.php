@@ -14,6 +14,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <link rel="shortcut icon" href="{{ asset('img/VolaSafeLogo.png') }}">
 </head>
 <body>
 
@@ -21,10 +23,10 @@
 
         {{-- Navbar --}}
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        {{-- <nav class="navbar navbar-expand-lg ms-navbar">
           <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/') }}">
-              <img src="" alt="{{ config('app.name') }}" width="30" height="24">
+              <img src="img/VolaSafeLogo.png" alt="{{ config('app.name') }}" width="70" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -32,17 +34,39 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
+                  <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Richiedi il tuo rimborso</a>
+                  <a class="nav-link" href="{{ url('/contact') }}">Richiedi il tuo rimborso</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> --}}
+
+        <nav class="navbar navbar-expand-sm navbar-light" id="ms-navbar">
+          <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+              <img src="img/VolaSafeLogo.png" alt="{{ config('app.name') }}" width="70" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+         
+            <div class="collapse navbar-collapse my-2" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item my-1">
+                  <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="{{ url('/') }}">Home</a>
+                </li>
+                <li class="nav-item my-1">
+                  <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">Products</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
 
-        <main class="py-4 bg-dark text-white">
+        <main class="py-4">
             @yield('content')
         </main>
 
