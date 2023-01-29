@@ -23,27 +23,6 @@
 
         {{-- Navbar --}}
 
-        {{-- <nav class="navbar navbar-expand-lg ms-navbar">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('/') }}">
-              <img src="img/VolaSafeLogo.png" alt="{{ config('app.name') }}" width="70" height="70">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ url('/contact') }}">Richiedi il tuo rimborso</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav> --}}
-
         <nav class="navbar navbar-expand-sm navbar-light" id="ms-navbar">
           <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
@@ -66,7 +45,7 @@
           </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
 

@@ -4,30 +4,6 @@
 // Variables
 @import 'variables';
 
-// .ms-navbar{
-
-//     .navbar-toggler{
-//         color:floralwhite;
-//         border: floralwhite;
-//     }
-
-//     .navbar-toggler-icon{
-//         background-image: floralwhite;
-//     }
-//     background-color: $firstBlue;
-//     ul {
-//         li{
-//             a{
-//                 color: floralwhite;
-//                 border: 1px solid floralwhite;
-//                 border-radius: 10px;
-//                 margin: 10px;
-//                 text-align: center;
-//             }
-//         }
-//     }
-// }
-
 #ms-navbar {
     background: $firstBlue;
     box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
@@ -63,10 +39,26 @@
 .navbar-toggler{
     background-color:rgb(211, 232, 241);
     border: rgb(211, 232, 241);
-
-    .navbar-toggler-icon{
-        
-    }
 }
 
+.jumbotron {
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ms-jumbotron-container {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size: large;
+}
+
+@media only screen and (max-width: 800px) {
+    .ms-jumbotron-container {
+        width: 100%;
+    }
+}
 
