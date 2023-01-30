@@ -19380,6 +19380,15 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+// $(".jumbotron").css({
+//   height: $(window).height() + "px"
+// });
+// $(window).on("resize", function () {
+//   $(".jumbotron").css({
+//     height: $(window).height() + "px"
+//   });
+// });
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

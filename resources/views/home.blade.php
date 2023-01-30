@@ -46,4 +46,56 @@
     </section>
     {{-- /Card Section --}}
 
+    {{-- Refound Instruction Section --}}
+    <section class="text-center ms-refound-section">
+
+        <h2>Come richiedere il Tuo Rimborso</h2>
+        <div id="timeline">
+
+            <div class="demo-card-wrapper">
+                <div class="demo-card demo-card--step1" data-aos = "fade-left">
+                    <div class="head">
+                        <div class="number-box">
+                            <span>01</span>
+                        </div>
+                        <h2><span class="small">INSERISCI I TUOI DATI</h2>
+                    </div>
+                    <div class="body">
+                        <p>Inserisci i dati del tuo volo e in pochi istanti scoprirai a quanto ammonta il tuo rimborso in caso di volo in ritardo, volo cancellato, volo in overbooking, bagaglio perso o riconsegnato in ritardo.</p>
+                    </div>
+                </div>
+        
+                <div class="demo-card demo-card--step2" data-aos = "fade-right">
+                    <div class="head">
+                        <div class="number-box">
+                            <span>02</span>
+                        </div>
+                        <h2><span class="small">CARICA LE INFORMAZIONI</h2>
+                    </div>
+                    <div class="body">
+                        <p>Ti chiederemo le infromazioni necessaria ad avviare la pratica per richiedere il tuo rimborso in tempi brevissimi.</p>
+                    </div>
+                </div>
+        
+                <div class="demo-card demo-card--step3" data-aos = "fade-left">
+                    <div class="head">
+                        <div class="number-box">
+                            <span>03</span>
+                        </div>
+                        <h2><span class="small">RICEVI I TUOI SOLDI</h2>
+                    </div>
+                    <div class="body">
+                        <p>Ottenere il tuo rimborso con il nostro supporto è più semplice e veloce. Come ItaliaVolaSafe ci occuperemo di tutto Noi, prendendoci cura dell’iter burocratico senza impegno e costi per te!</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+        </div>
+
+        
+
+    </section>
+    {{-- /Refound Instruction Section --}}
+
 @endsection
