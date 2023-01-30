@@ -177,7 +177,7 @@
   $container-width: $card-width*2 + $outer-margin*3;
   $head-height: $number-size + 50;
   $body-height: $card-height - $head-height;
-  $marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
+  $marker-dist: $card-width + calc($outer-margin/2) - $marker-size/2;
   
   /* Placeholders */
   
@@ -263,10 +263,10 @@
         max-width: $card-width;
         height: $card-height;
         margin: $outer-margin;
-        margin-top: $outer-margin/2;
-        margin-bottom: $outer-margin/2;
+        margin-top: calc($outer-margin/2);
+        margin-bottom: calc($outer-margin/2);
         &:nth-child(odd) {
-          margin-right: $outer-margin/2;
+          margin-right: calc($outer-margin/2);
           .head::after {
             @extend %arrow;
             border-left-width: 15px;
@@ -279,7 +279,7 @@
           }
         }
         &:nth-child(even) {
-          margin-left: $outer-margin/2;
+          margin-left: calc($outer-margin/2);
           .head::after {
             @extend %arrow;
             border-right-width: 15px;
@@ -364,6 +364,43 @@
     }
   }
 }
+
+// CONTACT PAGE
+
+#ms-contact {
+  background-color: $firstBlue;
+  padding: 20px 0;
+  min-height: calc(100vh - 300px);
+
+  h2{
+    padding: 20px 0;
+    color: #0a6a91;
+  }
+
+  .ms-form-section  {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 3%;
+
+    .valid-feedback  {
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    .invalid-feedback  {
+      background-color: white;
+      border-radius: 10px;
+    }
+    .ms-radiobtn {
+      margin:0 auto;
+      padding: 20px 0 0;
+    }
+  }
+}
+
 
 // FOOTER
 

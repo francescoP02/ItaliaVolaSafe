@@ -12960,6 +12960,42 @@ fieldset:disabled .btn {
   border-color: #0887b9;
 }
 
+#ms-contact {
+  background-color: #41b6e6;
+  padding: 20px 0;
+  min-height: calc(100vh - 300px);
+}
+
+#ms-contact h2,
+#ms-contact .h2 {
+  padding: 20px 0;
+  color: #0a6a91;
+}
+
+#ms-contact .ms-form-section {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: antiquewhite;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 3%;
+}
+
+#ms-contact .ms-form-section .valid-feedback {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#ms-contact .ms-form-section .invalid-feedback {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#ms-contact .ms-form-section .ms-radiobtn {
+  margin: 0 auto;
+  padding: 20px 0 0;
+}
+
 footer {
   background-color: #0887b9;
 }
