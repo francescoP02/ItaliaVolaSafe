@@ -12647,3 +12647,46 @@ fieldset:disabled .btn {
   }
 }
 
+.ms-card-section {
+  background-color: #0d97ce;
+}
+
+.ms-card-h3 {
+  padding: 30px 0 20px 0;
+  color: floralwhite;
+}
+
+.ms-cardbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ms-card {
+  width: 20vw;
+  border: 1px solid #0887b9;
+  background-color: #0887b9;
+  color: antiquewhite;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ms-card .card-img-top {
+  width: 65%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 1000px) {
+  .ms-cardbox {
+    display: block;
+    justify-content: unset;
+  }
+
+  .ms-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+

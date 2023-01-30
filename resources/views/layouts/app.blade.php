@@ -16,6 +16,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <link rel="shortcut icon" href="{{ asset('img/VolaSafeLogo.png') }}">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -44,12 +46,18 @@
             </div>
           </div>
         </nav>
+        {{-- /Navbar --}}
 
         <main>
             @yield('content')
         </main>
 
     </div>
-    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
+
+<script>
+  AOS.init();
+</script>
