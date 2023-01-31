@@ -19407,6 +19407,9 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
     }, false);
   });
 })();
+$('.carousel').carousel({
+  interval: 2000
+});
 
 /***/ }),
 

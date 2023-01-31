@@ -41,7 +41,7 @@
                   <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item my-1">
-                  <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">Products</a>
+                  <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">Richiedi il tuo Rimborso</a>
                 </li>
               </ul>
             </div>
@@ -81,7 +81,7 @@
                     <a class="text-white" href="{{ url('/') }}">Home</a>
                   </p>
                   <p>
-                    <a class="text-white"href="{{ url('contact') }}">Contact</a>
+                    <a class="text-white"href="{{ url('contact') }}">Richiedi il tuo Rimborso</a>
                   </p>
                 </div>
 

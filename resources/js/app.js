@@ -28,3 +28,8 @@ require('./bootstrap');
       }, false)
     })
   })()
+
+
+  $('.carousel').carousel({
+    interval: 2000
+  })

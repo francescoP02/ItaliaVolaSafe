@@ -21,64 +21,66 @@
               </div>
             </div>
             <div class="col-md-12">
-              <label for="validationCustom03" class="form-label">City</label>
-              <input type="text" class="form-control" id="validationCustom03" required>
+              <label for="validationCustom03" class="form-label">Email</label>
+              <input type="email" class="form-control" id="validationCustom03" required>
               <div class="invalid-feedback">
-                Please provide a valid city.
+                Please provide a valid email.
               </div>
             </div>
             <div class="col-md-12">
-                <label for="validationCustom04" class="form-label">State</label>
+                <label for="validationCustom04" class="form-label">Company</label>
                 <select class="form-select" id="validationCustom04" required>
                   <option selected disabled value="">Choose...</option>
                   <option>...</option>
                 </select>
                 <div class="invalid-feedback">
-                  Please select a valid state.
+                  Please select a valid company.
                 </div>
             </div>
             <div class="col-md-6">
-              <label for="validationCustom05" class="form-label">Zip</label>
+              <label for="validationCustom05" class="form-label">Departure Airport</label>
               <input type="text" class="form-control" id="validationCustom05" required>
               <div class="invalid-feedback">
-                Please provide a valid zip.
+                Please provide a valid departure airport.
               </div>
             </div>
             <div class="col-md-6">
-                <label for="validationCustom05" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
+                <label for="validationCustom06" class="form-label">Arrival Airport</label>
+                <input type="text" class="form-control" id="validationCustom06" required>
                 <div class="invalid-feedback">
-                  Please provide a valid zip.
+                  Please provide a valid arrival airport.
                 </div>
             </div>
             <div class="col-md-6">
-                <label for="validationCustom05" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
+                <label for="validationCustom07 class="form-label">Flight number</label>
+                <input type="text" class="form-control" id="validationCustom07" required>
                 <div class="invalid-feedback">
-                  Please provide a valid zip.
+                  Please provide a valid flight number.
                 </div>
             </div>
             <div class="col-md-6">
-                <label for="validationCustom05" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
+                <label for="validationCustom08" class="form-label">Flight date</label>
+                <input type="date" class="form-control" id="validationCustom08" required>
                 <div class="invalid-feedback">
-                  Please provide a valid zip.
+                  Please provide a valid date.
                 </div>
             </div>
             <div class="col-md-4 ms-radiobtn">
 
+                <h5>Discomfort Experienced:</h5>
+
                 <div class="form-check m-2">
                     <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
-                    <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+                    <label class="form-check-label" for="validationFormCheck2">Delayed</label>
                 </div>
                 <div class="form-check m-2">
                     <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
-                    <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+                    <label class="form-check-label" for="validationFormCheck3">Canceled</label>
                     <div class="invalid-feedback">More example invalid feedback text</div>
                 </div>
                 <div class="form-check m-2">
                     <input type="radio" class="form-check-input" id="validationFormCheck4" name="radio-stacked" required>
-                    <label class="form-check-label" for="validationFormCheck4">Or toggle this other radio</label>
+                    <label class="form-check-label" for="validationFormCheck4">Denied Boarding</label>
                     <div class="invalid-feedback">More example invalid feedback text</div>
                 </div>
 

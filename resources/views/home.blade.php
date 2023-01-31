@@ -98,4 +98,40 @@
     </section>
     {{-- /Refound Instruction Section --}}
 
+    {{-- About Us --}}
+    <section id="about-us-section" class="text-center py-4 w-100 container">
+        <h2 class="p-3 fw-bold">About Us</h2>
+
+        <p class="p-2">La missione di VolaSafe è semplice: fornire servizi di alta qualità ai nostri clienti. Il nostro team fa di tutto per soddisfare le esigenze specifiche di ogni progetto. Attraverso una comunicazione chiara e un servizio eccezionale, speriamo che troverai quello che stai cercando con il nostro Servizio di fabbro. Per ulteriori informazioni e domande, contattaci al più presto.</p>
+        
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{asset('img/plane_bg.jpg')}}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.punto-informatico.it/app/uploads/2021/06/sfondo_art-1060x424.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/plane_bg.jpg')}}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    {{-- /About Us --}}
+
 @endsection
