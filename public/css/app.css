@@ -12588,22 +12588,24 @@ fieldset:disabled .btn {
 }
 
 body {
-  background-color: #0d97ce;
+  background-color: black;
+  scroll-behavior: smooth;
 }
 
 #ms-navbar {
-  background: #41b6e6;
+  background: black;
   box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+  border-radius: 50%;
+  background-color: beige;
 }
 
 .nav-item .active {
   border-radius: 6px;
-  background: linear-gradient(145deg, #30a1ce, #51c0ec);
-  box-shadow: 4px 4px 8px #0d97ce, -4px -4px 8px #61c6ee;
-}
-
-.nav-item .active a {
-  color: floralwhite;
+  background: linear-gradient(145deg, rgb(218, 218, 209), white);
+  box-shadow: 2px 2px 4px grey, -2px -2px 4px #bdbdbd;
 }
 
 #ms-navbar .navbar-collapse a:hover {
@@ -12612,7 +12614,7 @@ body {
 }
 
 #ms-navbar .navbar-collapse a.active {
-  color: rgb(211, 232, 241);
+  color: black;
 }
 
 #ms-navbar .nav-item {
@@ -12623,6 +12625,7 @@ body {
   padding-left: 12px;
   padding-right: 12px;
   margin-right: 10px;
+  color: floralwhite;
 }
 
 .navbar-toggler {
@@ -12652,7 +12655,7 @@ body {
 }
 
 .ms-card-section {
-  background-color: #0d97ce;
+  background-color: black;
 }
 
 .ms-card-h3 {
@@ -12696,7 +12699,7 @@ body {
 
 .ms-refound-section {
   padding: 20px 0;
-  background-color: #0d97ce;
+  background-color: black;
   color: antiquewhite;
   /* Media Queries */
   /* Card sizing */
@@ -12710,7 +12713,7 @@ body {
   margin: 30px 0 10px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1090px) {
   .ms-refound-section #timeline .demo-card:nth-child(even) .head::after,
   .ms-refound-section #timeline .demo-card:nth-child(odd) .head::after {
     position: absolute;
@@ -12729,7 +12732,7 @@ body {
     height: 9px;
     background-color: #bdbdbd;
     border-radius: 9px;
-    box-shadow: 0px 0px 2px 8px #0d97ce;
+    box-shadow: 0px 0px 2px 8px black;
   }
 }
 
@@ -12751,7 +12754,7 @@ body {
 
 .ms-refound-section #timeline {
   padding: 20px 0;
-  background: #0d97ce;
+  background: black;
 }
 
 .ms-refound-section #timeline h1,
@@ -12774,7 +12777,7 @@ body {
   margin: auto;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1090px) {
   .ms-refound-section #timeline .demo-card-wrapper {
     display: flex;
     flex-flow: column wrap;
@@ -12794,7 +12797,7 @@ body {
   border-left: 1px solid rgba(191, 191, 191, 0.4);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1090px) {
   .ms-refound-section #timeline .demo-card-wrapper::after {
     border-left: 1px solid #bdbdbd;
   }
@@ -12821,7 +12824,7 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1090px) {
   .ms-refound-section #timeline .demo-card {
     max-width: 400px;
     height: 200px;
@@ -12923,7 +12926,7 @@ body {
   padding: 15px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1090px) {
   .ms-refound-section #timeline .demo-card .body {
     height: 115px;
   }
@@ -12965,20 +12968,22 @@ body {
 }
 
 #ms-contact {
-  background-color: #41b6e6;
+  background-color: black;
   padding: 20px 0;
   min-height: calc(100vh - 300px);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #ms-contact h2,
 #ms-contact .h2 {
   padding: 20px 0;
-  color: #0a6a91;
+  color: black;
 }
 
 #ms-contact .ms-form-section {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
   width: 80%;
   margin: 0 auto;
   border-radius: 20px;
@@ -13001,7 +13006,7 @@ body {
 }
 
 #about-us-section {
-  background-color: #0d97ce;
+  background-color: black;
   color: floralwhite;
 }
 
@@ -13025,6 +13030,6 @@ body {
 }
 
 footer {
-  background-color: #0887b9;
+  background-color: black;
 }
 

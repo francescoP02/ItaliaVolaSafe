@@ -15,7 +15,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ asset('img/VolaSafeLogo.png') }}">
+    <link rel="shortcut icon" href="{{ asset('img/ITALIAVOLASAFE.png') }}">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
@@ -29,18 +29,18 @@
         <nav class="navbar navbar-expand-sm navbar-light" id="ms-navbar">
           <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-              <img src="img/VolaSafeLogo.png" alt="{{ config('app.name') }}" width="70" height="70">
+              <img src="img/ITALIAVOLASAFE.png" alt="{{ config('app.name') }}" width="80" height="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
          
-            <div class="collapse navbar-collapse my-2" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto text-center">
-                <li class="nav-item my-1">
+            <div class="collapse navbar-collapse my-4" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto text-center py-4">
+                <li class="nav-item my-3">
                   <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
-                <li class="nav-item my-1">
+                <li class="nav-item my-3">
                   <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">Richiedi il tuo Rimborso</a>
                 </li>
               </ul>
