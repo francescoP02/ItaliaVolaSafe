@@ -12599,7 +12599,7 @@ body {
 
 .navbar-brand {
   border-radius: 50%;
-  background-color: beige;
+  background-color: white;
 }
 
 .nav-item .active {
@@ -12670,9 +12670,9 @@ body {
 
 .ms-card {
   width: 20vw;
-  border: 1px solid #0887b9;
-  background-color: #0887b9;
-  color: antiquewhite;
+  border: 1px solid #79abde;
+  background-color: #79abde;
+  color: beige;
   padding: 1.5em 0.5em 0.5em;
   border-radius: 2em;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -12944,27 +12944,27 @@ body {
 }
 
 .ms-refound-section #timeline .demo-card--step1 {
-  background-color: #0887b9;
+  background-color: #79abde;
 }
 
 .ms-refound-section #timeline .demo-card--step1 .head::after {
-  border-color: #0887b9;
+  border-color: #79abde;
 }
 
 .ms-refound-section #timeline .demo-card--step2 {
-  background-color: #0887b9;
+  background-color: #79abde;
 }
 
 .ms-refound-section #timeline .demo-card--step2 .head::after {
-  border-color: #0887b9;
+  border-color: #79abde;
 }
 
 .ms-refound-section #timeline .demo-card--step3 {
-  background-color: #0887b9;
+  background-color: #79abde;
 }
 
 .ms-refound-section #timeline .demo-card--step3 .head::after {
-  border-color: #0887b9;
+  border-color: #79abde;
 }
 
 #ms-contact {

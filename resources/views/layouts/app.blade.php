@@ -38,10 +38,10 @@
             <div class="collapse navbar-collapse my-4" id="navbarNavDropdown">
               <ul class="navbar-nav ms-auto text-center py-4">
                 <li class="nav-item my-3">
-                  <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="{{ url('/') }}">Home</a>
+                  <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item my-3">
-                  <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('contact') }}">Richiedi il tuo Rimborso</a>
+                  <a class="nav-link" href="{{ url('contact') }}">Richiedi il tuo Rimborso</a>
                 </li>
               </ul>
             </div>

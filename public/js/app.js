@@ -19407,9 +19407,27 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
     }, false);
   });
 })();
-$('.carousel').carousel({
-  interval: 2000
-});
+
+// $('.carousel').carousel({
+//   interval: 2000
+// })
+
+// import axios from "axios";
+
+// const options = {
+//   method: 'GET',
+//   url: 'https://airport-info.p.rapidapi.com/airport',
+//   headers: {
+//     'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+//     'X-RapidAPI-Host': 'airport-info.p.rapidapi.com'
+//   }
+// };
+
+// axios.request(options).then(function (response) {
+// 	console.log(response.data);
+// }).catch(function (error) {
+// 	console.error(error);
+// });
 
 /***/ }),
 
