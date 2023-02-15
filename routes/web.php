@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::resource('emails', 'EmailController');
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/', 'EmailController@index')->name('home');
+
+Route::get('/contact', 'EmailController@create')->name('contact');
+
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
