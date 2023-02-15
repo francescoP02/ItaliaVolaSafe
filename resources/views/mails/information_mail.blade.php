@@ -11,6 +11,10 @@
 <body>
     <h1>Un nuova mail è stata inviata</h1>
     <h3>Da: {{ $email->first_name }} {{ $email->last_name }}</h3>
+    <p>Indirizzo mail: {{$email->email}}</p>
+    <p>Compagnia aerea: {{$email->company}}</p>
+    <p>Volo {{$email->flight_number}} da {{$email->departure_airport}} a {{$email->arrival_airport}} in data {{$email->flight_date}}</p>
+    <p>Tipo di disagio: {{$email->discomfort}}</p>
 </body>
 
 </html>

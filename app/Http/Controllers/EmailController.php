@@ -60,8 +60,6 @@ class EmailController extends Controller
             'flight_number' => 'required|max:255',
             'flight_date' => 'required',
             'discomfort' => 'max:255',
-            'tags' => 'nullable|exists:tags,id',
-            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:1024',
         ];
     }
 }
