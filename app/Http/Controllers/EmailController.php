@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Email;
+use App\Mail\SendNewMail;
+use Illuminate\Support\Facades\Mail;
 
 class EmailController extends Controller
 {
@@ -43,6 +45,7 @@ class EmailController extends Controller
         $email = new Email();
         $email->fill($data);
         $email->save();
+        Mail::to('info@italiavolasafe.it')->send(new SendNewMail($email));
         return redirect()->route('home');
     }
 
